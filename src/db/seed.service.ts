@@ -8,8 +8,6 @@ export class SeedService {
   private patients: Patient[] = [];
   private heartRates: HeartRateReading[] = [];
 
-  constructor() { }
-
   getPatients(): Patient[] {
     return this.patients;
   }
